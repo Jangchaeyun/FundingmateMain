@@ -1,0 +1,174 @@
+.rewarding,
+.reward {
+  overflow-x: hidden;
+  width: 1080px;
+  margin: 0 auto;
+}
+.reward_title {
+  font-size: 20px;
+  display: flex;
+  margin-top: 2%;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.banner_img {
+  width: 1080px;
+}
+
+.reward {
+  margin-bottom: 6%;
+}
+
+.rewarding_proj {
+  font-size: 15px;
+  margin-bottom: 1%;
+}
+
+.reward_outer {
+  width: 263px;
+  height: 350px;
+}
+
+/* .reward_cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reward_card_row {
+  display: flex;
+}
+
+.reward_card {
+  border-radius: 5px 5px 0px 0px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  width: 262px;
+  height: 275px;
+  margin-bottom: 3%;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  margin-left: 0.6%;s
+} */
+
+.reward_card_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.reward_card {
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 275px;
+  margin-bottom: 3%;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  margin-right: 10px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(0% - 19.2%);
+}
+
+.reward_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.reward_card:hover {
+  transform: scale(1.01);
+}
+
+.reward_img {
+  border-radius: 5px 5px 0px 0px;
+  width: 250px;
+  height: 152px;
+}
+
+.com_name {
+  margin-left: 2%;
+  color: rgba(0, 0, 0, 0.46);
+  font-size: 13px;
+  margin-top: 0%;
+  margin-left: 2%;
+}
+
+.reward_name {
+  margin-left: 2%;
+  font-size: 15px;
+}
+
+.reward_detail {
+  margin-left: 6px;
+  margin-top: 43px;
+}
+
+.price {
+  color: #14b8ff;
+  font-size: 13px;
+  font-weight: 400px;
+  margin-bottom: -16px;
+}
+
+.rate {
+  font-size: 13px;
+  margin-left: 66%;
+}
+
+.d_day {
+  font-size: 13px;
+  margin-left: 85.2%;
+  margin-top: -6.4%;
+}
+
+.bell_box {
+  display: flex;
+  width: 250px;
+  height: 23px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  font-size: 13px;
+  justify-content: center;
+  margin-top: 11px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.bell_box:hover {
+  transform: scale(1.0001);
+  border: 1px solid #14b8ff;
+  color: #14b8ff;
+}
+
+.reward-more {
+  cursor: pointer;
+  right: 50%;
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  margin-left: 35%;
+  margin-bottom: 7%;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.46);
+  background: #fff;
+  transition: all 0.2s linear;
+}
+
+.reward-more:hover {
+  transform: scale(1.01);
+}
+
+.open {
+  margin-left: 135px;
+  font-size: 13px;
+  color: var(--main-color);
+}

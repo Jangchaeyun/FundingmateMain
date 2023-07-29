@@ -1,0 +1,578 @@
+.desc {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.desc_subtitle {
+  font-size: 11px;
+  margin-top: 1%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+.bold {
+  color: var(--main-color);
+}
+
+.desc_title {
+  font-size: 21px;
+  margin-bottom: 1.8%;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.desc_contents {
+  display: flex;
+  margin-left: 10%;
+}
+
+.main_img {
+  width: 490px;
+  height: 300px;
+}
+
+.desc_img {
+  text-align: center;
+}
+.sub_img1 {
+  width: 100px;
+  height: 52.583px;
+  margin-right: 0.7%;
+}
+
+.sub_img2 {
+  width: 100px;
+  height: 52.583px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.desc_content {
+  width: 100%;
+  margin-left: 3%;
+}
+
+.fund_category {
+  color: var(--main-color);
+  font-size: 13px;
+  margin-bottom: 0.5%;
+}
+
+.fund_price {
+  font-size: 20px;
+}
+
+.rewarding {
+  color: var(--black);
+  font-size: 12px;
+}
+
+.fund_rate {
+  display: flex;
+  width: 48%;
+  margin-left: 0.6%;
+  color: var(--grey);
+  font-size: 12px;
+  margin-top: 2%;
+}
+
+.fund_rate_title {
+  width: 53px;
+  margin-right: 19px;
+}
+
+.fund_rate_per {
+  /* margin-left: 0px; */
+  color: var(--black);
+  margin-right: 32px;
+}
+
+.fund_rate_price {
+  color: var(--black);
+  font-size: 10px;
+  margin-top: 1%;
+  margin-right: -24px;
+}
+
+.fund_date {
+  display: flex;
+  width: 51%;
+  margin-left: 0.6%;
+  color: var(--grey);
+  font-size: 12px;
+  margin-top: 4%;
+}
+
+.fund_date_title {
+  color: var(--grey);
+  margin-left: 0%;
+  margin-right: 38px;
+}
+
+.fund_date_dday {
+  color: var(--black);
+  margin-right: 39px;
+}
+
+.fund_date_enddate {
+  margin-top: 0.4%;
+  margin-left: -7%;
+}
+
+.fund_date_end {
+  color: var(--black);
+  font-size: 10px;
+  margin-right: -15%;
+}
+
+.fund_people {
+  display: flex;
+  width: 58%;
+  margin-left: 0.6%;
+  color: var(--grey);
+  font-size: 12px;
+  margin-top: 2%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.fund_people_title {
+  width: 59%;
+  margin-top: 4%;
+}
+
+.fund_people_count {
+  color: var(--black);
+  width: 36px;
+  margin-left: -1px;
+  margin-top: 4px;
+}
+
+.fund_btn {
+  width: 256px;
+  background-color: var(--main-color);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 31px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.funding-closed {
+  width: 74%;
+  background-color: #0064cd;
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 31px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.fund_date_dday {
+  font-weight: bold;
+}
+
+.proj_share {
+  margin-top: 2%;
+  width: 59%;
+  background-color: var(--white);
+  border: 1px solid #000;
+  font-size: 12px;
+  height: 36px;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.proj_share:hover {
+  border: 1px solid #14b8ff;
+  color: #14b8ff;
+}
+
+.circles {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+  margin-left: 1.5%;
+}
+
+.circle1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  margin-right: 14%;
+}
+
+.circle2 {
+  width: 39px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  margin-right: 14%;
+}
+
+.circle3 {
+  width: 39px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  margin-right: 46px;
+}
+
+.icon_img {
+  width: 50%;
+  margin-top: 25%;
+  margin-left: 3%;
+}
+
+.schedule {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 8%;
+  font-size: 11px;
+  color: var(--grey);
+  text-align: center;
+}
+
+.end1 {
+  color: var(--main-color);
+  margin-left: -8.5%;
+}
+
+.end2 {
+  color: var(--main-color);
+  margin-left: 9%;
+}
+
+.end3 {
+  color: var(--main-color);
+  margin-left: 33px;
+}
+.company {
+  border-radius: 5px;
+  border: 1px solid var(--black);
+  width: 58%;
+  height: 41px;
+  margin-top: 2%;
+  margin-left: 0.6%;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.contact_box {
+  display: flex;
+  width: 13%;
+}
+
+.company:hover {
+  transform: scale(1.03);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.company_name {
+  font-size: 12px;
+  color: var(--black);
+  margin-top: 3.5%;
+  margin-left: 11%;
+  transition: all 0.2s linear;
+}
+
+.fund_end_date_title {
+  margin-left: -7%;
+}
+
+.price_date_title {
+  margin-left: 12%;
+}
+
+.send_date_title {
+  margin-left: 12%;
+}
+
+.company_name:hover {
+  color: var(--main-color);
+}
+
+.menu_hr {
+  width: 1080px;
+}
+
+.name_view {
+  display: flex;
+  margin-top: 1%;
+}
+
+.people_img {
+  width: 33px;
+  height: 30px;
+  margin-left: 2.7%;
+  margin-top: 3px;
+}
+
+.info {
+  width: 259px;
+  background-color: var(--info);
+  font-size: 10px;
+  margin-left: 0.5%;
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.menu {
+  margin-top: 3%;
+  margin-left: -24%;
+}
+
+.menu_items {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 529px;
+  font-size: 14px;
+  transition: all 0.4s linear;
+}
+
+.active {
+  color: var(--main-color);
+}
+
+.story {
+  transition: all 0.4s linear;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black);
+  margin-left: -4%;
+  margin-right: 6%;
+}
+
+.story:hover {
+  color: var(--main-color);
+}
+
+.contact {
+  transition: all 0.4s linear;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black);
+  margin-left: 30%;
+}
+
+.contact:hover {
+  color: var(--main-color);
+}
+
+.contact_count {
+  color: var(--main-color);
+  margin-left: -0.4%;
+  margin-top: -0.9%;
+  font-size: 9px;
+}
+
+.guide {
+  transition: all 0.4s linear;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black);
+  margin-left: 4%;
+}
+
+.guide:hover {
+  color: var(--main-color);
+}
+
+.story_content {
+  margin-top: 2%;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 7%;
+  margin-right: 153px;
+}
+
+.product_img {
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.con {
+  margin-top: 4%;
+  margin-left: 17%;
+}
+
+.con_subtitle {
+  font-size: 14px;
+}
+
+.con_title {
+  color: var(--main-color);
+  margin-top: 1%;
+  font-size: 18px;
+}
+
+.con_info {
+  margin-top: 1%;
+  font-size: 14px;
+}
+
+.con_input {
+  margin-top: 3%;
+  width: 82.5%;
+  height: 73px;
+  border: 1px solid var(--grey);
+  resize: none;
+}
+
+.con_input:focus {
+  outline: none;
+}
+
+.sub {
+  margin-top: 1%;
+  float: right;
+  margin-right: 14.8%;
+  width: 13%;
+  height: 25px;
+  border: 1px solid var(--main-color);
+  justify-content: center;
+  background-color: var(--white);
+  margin-bottom: 2%;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.sub:hover {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+.con_list {
+  background-color: var(--lightgrey);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0%;
+  padding-left: 302px;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  width: 463px;
+}
+
+.guide_title {
+  margin-top: 3%;
+  padding-bottom: 1%;
+}
+
+.guide_content {
+  font-size: 12px;
+}
+
+.guide_line {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.guide_line2 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.guide_category {
+  font-size: 13px;
+  margin-bottom: 1%;
+}
+
+.guide_category_info {
+  color: var(--grey);
+  font-size: 12px;
+  margin-bottom: 1%;
+}
+
+.guide_category_info_con {
+  margin-bottom: 1%;
+}
+
+.guide_infos {
+  margin-left: 17%;
+  margin-right: 192px;
+}
+
+.text {
+  text-align: center;
+}
+
+.reward_con_list {
+  margin-top: 47px;
+  margin-bottom: 7px;
+  border: 1px solid var(--grey);
+  width: 84.8%;
+  margin-left: 0%;
+}
+
+.reward_con_name {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 13px;
+}
+
+.reward_con_content {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  font-size: 13px;
+}
+
+.reward_reply_content {
+  display: flex;
+}
+
+.reply_reward_con_name {
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+
+.reply_reward_con_content {
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+
+.reply_text {
+  margin-left: 2%;
+  width: 85%;
+  height: 20px;
+  border: 1px solid var(--grey);
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.reply_text:focus {
+  outline: none;
+}
+
+.reply_submit {
+  float: right;
+  margin-left: 1.1%;
+  width: 76px;
+  border-radius: 5px;
+  height: 25px;
+  border: 1px solid var(--main-color);
+  justify-content: center;
+  background-color: var(--white);
+  margin-bottom: 2%;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}

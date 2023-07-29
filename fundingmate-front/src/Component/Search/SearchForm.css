@@ -1,0 +1,38 @@
+.searchForm {
+    width: 1080px;
+    margin: 50px auto 0;
+}
+.searchCnt {
+    text-align: center;
+}
+.searchKeyword {
+    text-align: center;
+    margin: 50px 0;
+}
+.searchfilter {
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+}
+.searchfilter:focus {
+    outline: 0;
+}
+.search-btn {
+    position: relative;
+    right: 50px;
+    top: 12px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.searchForm-nav-search {
+    width: 350px;
+    height: 40px;
+    font-size: 1.1em;
+    border: 1px solid #14B8FF;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}

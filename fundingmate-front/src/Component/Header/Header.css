@@ -1,0 +1,201 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 100px;
+  border-bottom: 1px solid #eaebed;
+}
+.header-wrap {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hTop {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+}
+.hlogoL {
+  font-size: 24px;
+}
+.hTopMenu {
+  flex-basis: 20%;
+  font-size: 16px;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+}
+
+.nav {
+  margin: 0 20px;
+}
+.hTopMenu > span:first-of-type {
+  margin-right: 20px;
+}
+.nav-item {
+  display: inline;
+  line-height: 2;
+  padding: 0;
+}
+.nav-item > li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav-search {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #14b8ff;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.float-r {
+  float: right;
+}
+.nav-search:focus {
+}
+.searchForm {
+  position: relative;
+}
+.nav-search-btn {
+  position: absolute;
+  right: -880px;
+  top: -1px;
+  font-size: 19px;
+  margin-right: -26px;
+  margin-top: -2px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.searchF {
+  display: contents;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 100px;
+  border-bottom: 1px solid #eaebed;
+}
+.header-wrap {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hTop {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+/*.hlogo {*/
+/*    flex-basis: 80%;*/
+/*}*/
+.hlogoL {
+  font-size: 24px;
+}
+
+.nav {
+  margin: 0 20px;
+  height: 50px;
+  line-height: 50px;
+}
+.hTopMenu > span:first-of-type {
+  margin-right: 20px;
+}
+.nav-item {
+  display: inline;
+  line-height: 2;
+}
+.nav-item > li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav-search {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #14b8ff;
+  border-radius: 20px;
+  padding-left: 20px;
+  position: relative;
+  top: 10px;
+}
+.float-r {
+  float: right;
+}
+.nav-search:focus {
+}
+
+.searchF {
+  display: contents;
+}
+@media screen and (max-width: 1100px) {
+  .hTopMenu {
+    position: fixed;
+    right: 0;
+  }
+  .nav-search {
+    position: fixed;
+    top: 50px;
+    right: 0;
+  }
+  .nav-search-btn {
+    position: fixed;
+    right: 20px;
+    top: 57px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-search {
+    width: 150px;
+  }
+}
+.myPageLink {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.noti {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.myPageImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.userName {
+  margin-right: 50px;
+}
+.hTopMenu > * {
+  margin-right: 20px;
+}
+.hTopMenu > a {
+  vertical-align: middle;
+}
+.projAdd {
+  background-color: #14b8ff;
+  height: 100%;
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+}
+.projAdd:hover {
+  background-color: #0064cd;
+}
+.logo {
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
